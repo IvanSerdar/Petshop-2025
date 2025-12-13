@@ -1,5 +1,5 @@
-User-agent: *
-Disallow: /admin/
-Allow: /
+ User-agent: *
+Disallow:
 
-Sitemap: https://www.tvojpetshop.rs/sitemap.xml
+Sitemap: https://ivanserdar.github.io/Petshop-2025/sitemap.xml
+
