@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pet Shop Beograd | Početna</title>
+<link rel="stylesheet" href="css/style.css">
+<script>
+function toggleMenu() {
+    document.querySelector("nav ul").classList.toggle("show");
+}
+</script>
+</head>
+
+<body>
+
+<header>
+    <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+    <nav>
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="about.html">O nama</a></li>
+            <li><a href="catalog.html">Katalog</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Dobrodošli u naš Pet Shop</h1>
+</section>
+
+<section>
+    <h2 style="text-align:center; padding-top:20px;">Najtraženiji proizvodi</h2>
+
+    <div class="cards">
+        <div class="card">
+            <img src="img/dog.jpg">
+            <h3>Hrana za pse</h3>
+        </div>
+
+        <div class="card">
+            <img src="img/cat.jpg">
+            <h3>Hrana za mačke</h3>
+        </div>
+
+        <div class="card">
+            <img src="img/bird.jpg">
+            <h3>Oprema za ptice</h3>
+        </div>
+    </div>
+</section>
+
+<footer>
+<p>&copy; 2025 PetShop Beograd</p>
+</footer>
+
+</body>
+</html>
